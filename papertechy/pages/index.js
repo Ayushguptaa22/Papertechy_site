@@ -1,9 +1,11 @@
 import React from 'react'
 
+import {Product, FooterBanner, HeroBanner} from '../components';
+
 const Home = () => {
   return (
     <>
-    Main Page Banner
+    <HeroBanner/>
     
     <div className="products-heading">
       <h2>Best selling products</h2>
@@ -15,8 +17,8 @@ const Home = () => {
        (product) => product)}
     </div>
 
-    <div className='Footer'>
-      <h3>Footer</h3>
+    <div >
+      <FooterBanner/>
     </div>
     </>
   )
